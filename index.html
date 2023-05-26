@@ -1,73 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-        <nav class="pr-10 pt-4 sm:w-full">
-            <div class="flex justify-end gap-10">
-                <a href="about.html" class="hover:underline focus:underline active:underline">Gmail</a>
-            <a href="#" class="hover:underline focus:underline active:underline">Images</a>
-            <div class="hover:bg-gray-300 hover:rounded-full hover:w-5 hover:h-5 hover:p-4  focus:bg-gray-300 focus:rounded-full focus:w-5 focus:h-5 focus:p-4  active:bg-gray-300 active:rounded-full active:w-5 active:h-5 active:p-4">
-                <img src="./grid round.svg" alt="" class="w-5 h-5 ">
-            </div>
-            <div class="w-7 h-7 rounded-full hover:bg-gray-300 hover:rounded-full hover:w-10 hover:h-10 hover:content-center   focus:bg-gray-300 focus:rounded-full focus:w-10 focus:h-10 focus:content-center   active:bg-gray-300 active:rounded-full active:w-10 active:h-10 active: content-center">
-                <button class="rounded-full w-7 h-7 bg-[#78909C] text-[white]  w-5 h-5 ">U</button>
-            </div>  
-            </div>     
-        </nav>
-        <div class="grid grid-cols justify-center gap-20 md:w-full">
-            <h1 class="text-8xl text-center"><b class="text-[#4086F4]">G</b><b class="text-[#EB4132]">o</b><b class="text-[#FBBD01]">o</b><b class="text-[#4086F4]">g</b><b class="text-[#31AA52]">l</b><b class="text-[#EB4132] sm:w-xl">e</b></h1>
-            <div class="flex-cols py-2">
-                <div >
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="greygi" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                    </svg>
-                    
-                </div>
-            
-                <input type="search" name="" id="" class="border px-40 py-2 rounded-full bg-transparent focus:shadow-xl">
-                <div class="flex justify-center gap-4  px-2 py-4 text-[#888B85]">
-                    <span class=" px-2 rounded bg-[#F8F9FA]">Google search</span>
-                    <span class=" px-2 rounded bg-[#F8F9FA]">I'm feeling lucky</span>
-                </div>
-                <div class="flex gap-2 justify-center">
-                    <span class="text-[grey]">Google offered in:</span>
-                    <span class="text-[#3F24AB] hover:underline focus:underline active:underline"><a href="">Français</a></span>
-                    <span class="text-[#3F24AB] hover:underline focus:underline active:underline"><a href="">Kiswahili </a></span>
-                    <span class="text-[#3F24AB] hover:underline focus:underline active:underline"><a href="">Ikinyarwanda</a></span>
-                </div>
-                
-            </div>
+      <nav class="pr-10 pt-4 sm:w-full">
+        <div class="flex items-center justify-end gap-10">
+          <a
+            href="about.html"
+            class="flex items-center hover:underline focus:underline active:underline"
+            >Gmail</a
+          >
+          <a
+            href="#"
+            class="flex items-center hover:underline focus:underline active:underline"
+            >Images</a
+          >
+          <div
+            class="flex justify-center items-center rounded-full hover:bg-gray-300 hover:rounded-full w-7 h-7 focus:bg-gray-300 focus:rounded-full focus:w-5 focus:h-5 focus:p-4 active:bg-gray-300 active:rounded-full active:w-5 active:h-5 active:p-4"
+          >
+            <img src="./grid round.svg" alt="" class="w-3 h-3" />
+          </div>
+          <div
+            class="w-7 h-7 flex justify-center items-center rounded-full hover:bg-gray-300  hover:w-8 hover:h-8"
+          >
+            <button
+              class="rounded-full w-7 h-7 bg-[#78909C] text-[white] "
+            >
+              U
+            </button>
+          </div>
         </div>
-        <footer class="bg-[#F2F2F2] flex-cols content-end gap-8 text-[#85757A] mt-28 sm:w-full">
-            
-                <div class="pl-8 py-2">
-                    <span>Rwanda</span>
-                </div>
-                <hr>
-                <div class="flex justify-between pl-8 pr-8 py-2 ">
-                    <div class="flex gap-8">
-                        <a href="#" class="hover:underline focus:underline active:underline sm:gap-4">About</a>
-                        <a href="#" class="hover:underline focus:underline active:underline">Advertising</a>
-                        <a href="" class="hover:underline focus:underline active:underline">Business</a>
-                        <a href="#" class="hover:underline focus:underline active:underline"> How Search works</a>
-                    </div>
-                    <div class=" flex gap-8">
-                        <a href="#" class="hover:underline focus:underline active:underline">Privacy</a>
-                        <a href="#" class="hover:underline focus:underline active:underline">Terms</a>
-                        <a href="#" class="hover:underline focus:underline active:underline">Settings</a>
-    
-                    </div>
-                </div>
-            
-        </footer>
+      </nav>
+      <div class="grid grid-cols pt-6  justify-center items-center gap-10 md:w-full">
+          <img src="./logo.png" alt="" srcset=""  class="w-[17rem] items-center justify-center flex">
+        
+        <div class="flex-cols py-2">
+          <label class="relative block">
+            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+              <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="grey" class="w-6 h-6 "><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+          </div>
+            <input type="search" name="" id="" class="w-96 bg-white placeholder:font-italitc border border-slate-300 rounded-full py-2 pl-10 pr-4  focus:outline-none hover:shadow-md" />
+            <div class="absolute inset-y-0 right-0 flex gap-4 items-center pr-3">
+            <span class="">
+      
+              <svg
+                class="goxjub w-6 h-6 items-center"
+                focusable="false"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="#4285f4"
+                  d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"
+                ></path>
+                <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
+                <path
+                  fill="#fbbc05"
+                  d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"
+                ></path>
+                <path
+                  fill="#ea4335"
+                  d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"
+                ></path>
+              </svg>
+            </span>
+            <span>
+              <svg class="Gdd5U w-6 h-6" focusable="false" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="192" width="192"></rect><g><circle fill="#34a853" cx="144.07" cy="144" r="16"></circle><circle fill="#4285f4" cx="96.07" cy="104" r="24"></circle><path fill="#ea4335" d="M24,135.2c0,18.11,14.69,32.8,32.8,32.8H96v-16l-40.1-0.1c-8.8,0-15.9-8.19-15.9-17.9v-18H24V135.2z"></path><path fill="#fbbc05" d="M168,72.8c0-18.11-14.69-32.8-32.8-32.8H116l20,16c8.8,0,16,8.29,16,18v30h16V72.8z"></path><path fill="#4285f4" d="M112,24l-32,0L68,40H56.8C38.69,40,24,54.69,24,72.8V92h16V74c0-9.71,7.2-18,16-18h80L112,24z"></path></g></svg>
+            </span>
+            </div>
+        </label>
+          <div class="flex justify-center gap-4 px-2 py-4 text-[#888B85]">
+            <span class="p-1 rounded bg-[#F8F9FA] hover:border">Google search</span>
+            <span class="p-1 rounded bg-[#F8F9FA] hover:border">I'm feeling lucky</span>
+          </div>
+          <div class="flex gap-2 justify-center">
+            <span class="text-[grey]">Google offered in:</span>
+            <span
+              class="text-[#3F24AB] hover:underline focus:underline active:underline"
+              ><a href="">Français</a></span
+            >
+            <span
+              class="text-[#3F24AB] hover:underline focus:underline active:underline"
+              ><a href="">Kiswahili </a></span
+            >
+            <span
+              class="text-[#3F24AB] hover:underline focus:underline active:underline"
+              ><a href="">Ikinyarwanda</a></span
+            >
+          </div>
+        </div>
+      </div>
+      <footer
+        class="bg-[#F2F2F2] flex-cols  gap-8 text-[#85757A] mt-28 sm:w-full"
+      >
+        <div class="pl-8 py-3">
+          <span>Rwanda</span>
+        </div>
+        <hr />
+        <div class="flex justify-between pl-8 pr-8 py-3">
+          <div class="flex gap-8">
+            <a
+              href="#"
+              class="hover:underline focus:underline active:underline sm:gap-4"
+              >About</a
+            >
+            <a href="#" class="hover:underline focus:underline active:underline"
+              >Advertising</a
+            >
+            <a href="" class="hover:underline focus:underline active:underline"
+              >Business</a
+            >
+            <a
+              href="#"
+              class="hover:underline focus:underline active:underline"
+            >
+              How Search works</a
+            >
+          </div>
+          <div class="flex gap-8">
+            <a href="#" class="hover:underline focus:underline active:underline"
+              >Privacy</a
+            >
+            <a href="#" class="hover:underline focus:underline active:underline"
+              >Terms</a
+            >
+            <a href="#" class="hover:underline focus:underline active:underline"
+              >Settings</a
+            >
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
